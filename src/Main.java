@@ -17,9 +17,10 @@ class Student{
     public String name;
     public int age;
     public Student(String name,int age,String webname) {
+        Print Print = new Print();
         this.name = name;
         this.age = age;
-        System.out.println("Welcome,"+name + "!\nYour Webname is " + webname + ",is it?");
+        Print.println("Welcome,"+name + "!\nYour Webname is " + webname + ",is it?");
 
     }
 }
