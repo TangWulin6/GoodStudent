@@ -1,14 +1,15 @@
-import Inputer.InputString;
+import Inputer.In;
 
 public class Main {
     public static void main(String[] args) {
-        InputString in = new InputString();
+        In in = new In();
 
         System.out.println("Hello!");
         String name = in.input("Name:");
+        int age = in.inputInt("Age:","Please try again.");
         String webname = in.input("Webname:");
 
-        new Student(name, 13, webname);
+        new Student(name, age, webname);
     }
 
 }
@@ -20,7 +21,7 @@ class Student{
 
         this.name = name;
         this.age = age;
-        System.out.println("Welcome, "+name + "! \n" + "Your Webname is " + webname + ", is it?");
+        System.out.println("Welcome, "+name + "! \n" + "Your age is " + age + ".\nYour Webname is " + webname + ", is it?");
 
     }
 }

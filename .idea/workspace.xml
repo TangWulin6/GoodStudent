@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b59d336c-7dad-49da-a6d8-06b40d095aee" name="变更" comment="变化很大。">
+    <list default="true" id="b59d336c-7dad-49da-a6d8-06b40d095aee" name="变更" comment="近乎完美。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inputer/InputString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inputer/In.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Printer/Print.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674477179491</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="变化很大。">
+      <created>1674477827566</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674477827566</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -92,6 +99,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value=" 我自己都不知道改了什么。" />
     <MESSAGE value="变化很大。" />
-    <option name="LAST_COMMIT_MESSAGE" value="变化很大。" />
+    <MESSAGE value="近乎完美。" />
+    <option name="LAST_COMMIT_MESSAGE" value="近乎完美。" />
   </component>
 </project>
