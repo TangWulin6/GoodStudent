@@ -1,18 +1,16 @@
-import java.lang.System;
-import java.util.Scanner;
+import Inputer.InputString;
+import Printer.Print;
 public class Main {
     public static void main(String[] args) {
+        InputString instr = new InputString();
+        Print Print = new Print();
+        Print.println("Hello!");
+        String name = instr.input("Name:");
+        String webname = instr.input("Webname:");
 
-        System.out.println("Hello!");
-        String name = input("Name:");
-        String webname = input("Webname:");
         new Student(name, 13, webname);
     }
-    public static String input(String text){
-        Scanner scan = new Scanner(System.in);
-        System.out.print(text);
-        return scan.nextLine();
-    }
+
 }
 
 class Student{
