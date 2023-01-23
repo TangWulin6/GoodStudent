@@ -1,12 +1,12 @@
 import Inputer.InputString;
-import Printer.Print;
+
 public class Main {
     public static void main(String[] args) {
-        InputString instr = new InputString();
-        Print Print = new Print();
-        Print.println("Hello!");
-        String name = instr.input("Name:");
-        String webname = instr.input("Webname:");
+        InputString in = new InputString();
+
+        System.out.println("Hello!");
+        String name = in.input("Name:");
+        String webname = in.input("Webname:");
 
         new Student(name, 13, webname);
     }
@@ -17,10 +17,10 @@ class Student{
     public String name;
     public int age;
     public Student(String name,int age,String webname) {
-        Print Print = new Print();
+
         this.name = name;
         this.age = age;
-        Print.println("Welcome,"+name + "!\nYour Webname is " + webname + ",is it?");
+        System.out.println("Welcome, "+name + "! \n" + "Your Webname is " + webname + ", is it?");
 
     }
 }
