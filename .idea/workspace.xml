@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b59d336c-7dad-49da-a6d8-06b40d095aee" name="变更" comment="有了亿点点改进哈~" />
+    <list default="true" id="b59d336c-7dad-49da-a6d8-06b40d095aee" name="变更" comment="有了亿点点改进哈~">
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -149,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674633063457</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="有了亿点点改进哈~">
+      <created>1674633485705</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1674633485705</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -183,7 +192,7 @@
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
-      <inline-watch fileUrl="file://$PROJECT_DIR$/src/Main.java" line="33">
+      <inline-watch fileUrl="file://$PROJECT_DIR$/src/Main.java" line="30">
         <watch expression="age" language="JAVA" />
       </inline-watch>
     </watches-manager>

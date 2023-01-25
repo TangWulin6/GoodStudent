@@ -22,9 +22,6 @@ public class Main {
             }
             answerInt = in.inputInt("学生党按1，老师按2。不想玩了按0走人。\n", "请输入数字整数。");
         }
-
-
-
     }
 
 }
